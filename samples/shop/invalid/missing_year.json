@@ -1,0 +1,14 @@
+{
+  "title": "missing property name",
+  "sample": {
+    "name": "Some Name"
+  },
+  "expectedErrors": [
+    {
+      "instancePath": "",
+      "params": {
+        "missingProperty": "year"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema#",
+  "$id": "urn:shop.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "year"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "number"
+    }
+  }
+}
